@@ -1,0 +1,21 @@
+{
+  "name": "tokenguardian",
+  "version": "1.0.0",
+  "description": "TokenGuardian Claude Skill - Optimizes responses to reduce token consumption.",
+  "main": "index.js",
+  "scripts": {
+    "lint:markdown": "markdownlint \"**/*.md\" --ignore node_modules",
+    "lint:json": "node -e \"const fs = require('fs'); const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8')); console.log('JSON configurations validated successfully.');\""
+  },
+  "keywords": [
+    "claude",
+    "prompt-engineering",
+    "optimization",
+    "tokens"
+  ],
+  "author": "TokenGuardian Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.41.0"
+  }
+}

@@ -1,0 +1,10 @@
+# Global CODEOWNERS
+
+# Every file is owned by the core contributors team by default
+*       @open-source-maintainers
+
+# Skill prompt changes require approval from lead prompt designers
+/SKILL.md @open-source-maintainers @prompt-architects
+
+# Workflows and template modifications
+/.github/ @open-source-maintainers

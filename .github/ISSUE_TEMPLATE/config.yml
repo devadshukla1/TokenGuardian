@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/open-source/TokenGuardian/discussions
+    about: Please ask questions, share configuration files, or discuss designs here.
+  - name: 🚨 Security Disclosures
+    url: https://github.com/open-source/TokenGuardian/security/policy
+    about: Report security vulnerabilities or prompt bypasses securely.
